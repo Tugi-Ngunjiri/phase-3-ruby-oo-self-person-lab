@@ -45,7 +45,7 @@ attr_reader: hygiene
 end
 
 def hygiene
-hygiene = @hygiene
+@hygiene = hygiene
 hygiene.new = "Value(8)"
 # => "Value(8)"
  end
